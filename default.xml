@@ -32,11 +32,6 @@
   <project path="frameworks/opt/telephony" name="AOSPLUS/frameworks_opt_telephony" remote="github" revision="4.4" />
   <project path="packages/providers/ContactsProvider" name="AOSPLUS/packages_providers_ContactsProvider" remote="github" revision="4.4" />
 
-  <!-- Theme Manager -->
-  <project path="vendor/tmobile/apps/ThemeChooser" name="Mahdi-Rom/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="kk-4.4" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="Mahdi-Rom/android_vendor_tmobile_libs_com.tmobile.themes" remote="github" revision="kk-4.4" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="Mahdi-Rom/android_vendor_tmobile_providers_ThemeManager" remote="github" revision="kk-4.4" />
-
   <!--AOSP -->
   <project path="build" name="android_build" groups="pdk" remote="github" revision="4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
